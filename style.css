@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+	background-color: #dcdde1;
+	font-family: 'Lato', sans-serif;
+}
+
+div {
+	padding: 10px;
+}
+
+#classifica {
+	text-align: center;
+	border: 5px solid #2f3640;
+	border-radius: 6px;
+}
+
+#classifica .header {
+	font-size: 20px;
+}
+
+#classifica tr:first-child td {
+	font-weight: bold;
+}
+
+#classifica tr:nth-child(-n+4) {
+	background-color: #2ecc71;
+}
+
+#classifica tr:nth-child(5) {
+	background-color: #3498db;
+}
+
+#classifica tr:nth-child(6) {
+	background-color: #2980b9;
+}
+
+#classifica tr:nth-child(18),
+#classifica tr:nth-child(19),
+#classifica tr:nth-child(20) {
+	background-color: #e74c3c;
+}
+
+#classifica td {
+	padding: 5px;
+	border: 1px solid #2f3640;
+}
+
+
+#results {
+	border: 1px solid #2f3640;
+}
