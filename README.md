@@ -30,10 +30,10 @@ We define a *triplet* as:
 | y Value  | Situation  | Triplet of % | 
 | ------------ | ------------ | ------------ |
 | 0 > y > 10  | Balanced match  |  40, 20, 40  |
-|  0 > y > 10  | Almost balanced match  | 55, 20, 25 |
-|  0 > y > 10 |  Quite balanced match | 62, 16, 22 |
-| 0 > y > 10   | Quite spaced teams match | 75, 15, 10 |
-| 0 > y > 10 |  Spaced teams match | 80, 13, 7 |
+|  10 > y > 20  | Almost balanced match  | 55, 20, 25 |
+|  20 > y > 30 |  Quite balanced match | 62, 16, 22 |
+| 30 > y > 40   | Quite spaced teams match | 75, 15, 10 |
+| 40 > y > 50 |  Spaced teams match | 80, 13, 7 |
 | y > 50 | Very spaced teams match | 86, 12, 2 |
 
 Correcting then the triplet using when necessary `triplet.reverse()` to assign to the best team the better probability of victory.
